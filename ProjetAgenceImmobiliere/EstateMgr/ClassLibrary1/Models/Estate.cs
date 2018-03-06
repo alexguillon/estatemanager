@@ -71,7 +71,7 @@ namespace EstateMgrCore.ViewModels
             set { SetProperty(value); }
         }
 
-        //[ForeignKey(nameof(RepresentId))]
-        //public Person Person { get; set; }
+       // [ForeignKey(nameof(RepresentId))]
+       // public Person Referent { get; set; }
     }
 }
