@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace EstateMgrCore.ViewModels
+namespace EstateMgrCore.Models
 {
     public class Estate : ViewModels.BaseNotifyPropertyChanged
     {
@@ -65,13 +65,13 @@ namespace EstateMgrCore.ViewModels
             set { SetProperty(value); }
         }
 
-        public int RepresentId
+        public int ReferentId
         {
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
 
-       // [ForeignKey(nameof(RepresentId))]
-       // public Person Referent { get; set; }
+        [ForeignKey(nameof(ReferentId))]
+        public Person Referent { get; set; }
     }
 }
