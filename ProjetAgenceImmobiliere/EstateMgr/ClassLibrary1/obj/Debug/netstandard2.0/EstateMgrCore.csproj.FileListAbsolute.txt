@@ -1,0 +1,6 @@
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.deps.json
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csproj.CoreCompileInputs.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfoInputs.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
