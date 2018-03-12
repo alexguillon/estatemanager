@@ -61,7 +61,7 @@ namespace EstateMgrCore.Models
         }
 
         [ForeignKey(nameof(AddressId))]
-        //public Address AddressPerson { get; set; }
+        public Address AddressPerson { get; set; }
 
         [InverseProperty(nameof(Estate.Referent))]
         public ObservableCollection<Estate> Estates
