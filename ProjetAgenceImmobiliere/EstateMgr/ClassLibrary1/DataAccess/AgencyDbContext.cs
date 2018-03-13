@@ -44,6 +44,8 @@ namespace EstateMgrCore.DataAccess
         public string DatabasePath { get; }
 
         public DbSet<Models.Estate> Estates { get; set; }
+        public DbSet<Models.Person> People { get; set; }
+        public DbSet<Models.Address> Addresses { get; set; }
 
         private AgencyDbContext(string databasePath)
         {
@@ -64,7 +66,8 @@ namespace EstateMgrCore.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent).WithMany(p => p.Estates);
+            modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent).WithMany(p => p.Estates_Ref);
+
         }
     }
 }

@@ -64,7 +64,14 @@ namespace EstateMgrCore.Models
         public Address AddressPerson { get; set; }
 
         [InverseProperty(nameof(Estate.Referent))]
-        public ObservableCollection<Estate> Estates
+        public ObservableCollection<Estate> Estates_Ref
+        {
+            get { return GetProperty<ObservableCollection<Estate>>(); }
+            protected set { SetProperty(value); }
+        }
+
+        [InverseProperty(nameof(Estate.Owner))]
+        public ObservableCollection<Estate> Estates_Owner
         {
             get { return GetProperty<ObservableCollection<Estate>>(); }
             protected set { SetProperty(value); }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
@@ -43,6 +44,27 @@ namespace EstateMgrCore.Models
         {
             get { return GetProperty<float>(); }
             set { SetProperty(value); }
+        }
+
+        [InverseProperty(nameof(Person.AddressPerson))]
+        public ObservableCollection<Person> Persons
+        {
+            get { return GetProperty<ObservableCollection<Person>>(); }
+            protected set { SetProperty(value); }
+        }
+
+        [InverseProperty(nameof(Estate.AddressEstate))]
+        public ObservableCollection<Estate> Estates
+        {
+            get { return GetProperty<ObservableCollection<Estate>>(); }
+            protected set { SetProperty(value); }
+        }
+        public Address()
+        {
+            Id = 0;
+            ZipCode = 0;
+            Latitude = 0;
+            Longitude = 0;
         }
     }
 }

@@ -12,6 +12,7 @@ namespace EstateMgrCore.DataAccess
         {
             var optionsBuilder = new DbContextOptionsBuilder<AgencyDbContext>();
             optionsBuilder.UseSqlite("Data Source=agency.db");
+
             return new AgencyDbContext(optionsBuilder.Options);
         }
     }
