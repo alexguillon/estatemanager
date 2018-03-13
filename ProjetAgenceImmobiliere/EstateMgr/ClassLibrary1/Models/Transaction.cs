@@ -47,12 +47,19 @@ namespace EstateMgrCore.Models
         }
         [ForeignKey(nameof(EstateId))]
         public Estate EstateTransaction { get; set; }
+
         [ForeignKey(nameof(OwnerId))]
         public Estate OwnerTransaction { get; set; }
+
         [InverseProperty(nameof(SaleTransaction.TransactionId))]
         public ObservableCollection<SaleTransaction> Sale_Transactions
         {
             get { return GetProperty<ObservableCollection<SaleTransaction>>(); }
+        }
+        [InverseProperty(nameof(RentTransaction.RentTransactionId))]
+        public ObservableCollection<RentTransaction> RentTransactions
+        {
+            get { return GetProperty<ObservableCollection<RentTransaction>>(); }
             protected set { SetProperty(value); }
         }
     }

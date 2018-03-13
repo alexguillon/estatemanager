@@ -1,10 +1,3 @@
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe.config
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\MainWindow.g.cs
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\App.g.cs
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_Content.g.cs
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_MarkupCompile.cache
-D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_MarkupCompile.lref
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe.config
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\MainWindow.g.cs
@@ -311,6 +304,13 @@ D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Interactive.Async.xml
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe.config
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\MainWindow.g.cs
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\App.g.cs
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_Content.g.cs
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_MarkupCompile.cache
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr_MarkupCompile.lref
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\MainWindow.baml
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.g.resources
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.Properties.Resources.resources
