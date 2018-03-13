@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using LiveCharts;
+using LiveCharts.Wpf;
 namespace EstateMgr
 {
     /// <summary>
@@ -23,6 +24,29 @@ namespace EstateMgr
         public MainWindow()
         {
             InitializeComponent();
+
+
+        }
+
+        public SeriesCollection SeriesCollection { get; set; }
+        public string[] Labels { get; set; }
+        public Func<double, string> Formatter { get; set; }
+
+        private void Click_Statistic_Year(object sender, RoutedEventArgs e)
+        {
+            SeriesCollection = new SeriesCollection
+            {
+                new ColumnSeries
+                {
+                    Title = "2015",
+                    Values = new ChartValues<double> { 5,2,3,4,5,8,12,7,1,8,11,4 }
+                }
+            };
+
+            Labels = new[] { "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre" };
+            Formatter = value => value.ToString("N");
+
+            DataContext = this;
         }
     }
 }
