@@ -90,5 +90,6 @@ namespace EstateMgrCore.Models
             get { return GetProperty<ObservableCollection<Transaction>>(); }
             protected set { SetProperty(value); }
         }
+
     }
 }
