@@ -6,7 +6,7 @@ using System.Text;
 
 namespace EstateMgrCore.Models
 {
-    class Address : ViewModels.BaseNotifyPropertyChanged
+    public class Address : ViewModels.BaseNotifyPropertyChanged
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id

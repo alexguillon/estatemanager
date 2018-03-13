@@ -13,5 +13,10 @@ namespace EstateMgr
     /// </summary>
     public partial class App : Application
     {
+        protected async override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            await EstateMgrCore.DataAccess.AgencyDbContext.Initialize();
+        }
     }
 }

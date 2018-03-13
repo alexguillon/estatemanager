@@ -13,7 +13,16 @@ namespace EstateMgrCore.DataAccess
         #region Singleton
 
         private static AgencyDbContext _context = null;
-        public async static Task<AgencyDbContext> GetCurrent()
+        public static AgencyDbContext Current
+        {
+            get
+            {
+                if (_context == null)
+                    throw new NullReferenceException("La base de données doit être initialisée.");
+                return _context;
+            }
+        }
+        public async static Task<AgencyDbContext> Initialize()
         {
             if (_context == null)
             {
@@ -40,6 +49,11 @@ namespace EstateMgrCore.DataAccess
         {
             DatabasePath = databasePath;
         }
+        
+        internal AgencyDbContext(DbContextOptions options) : base(options)
+        {
+
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -50,8 +64,7 @@ namespace EstateMgrCore.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent)
-                                                .WithMany(p => p.Estates);
+            modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent).WithMany(p => p.Estates);
         }
     }
 }

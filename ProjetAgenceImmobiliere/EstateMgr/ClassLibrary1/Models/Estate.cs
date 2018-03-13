@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace EstateMgrCore.Models
@@ -68,8 +71,24 @@ namespace EstateMgrCore.Models
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
+        public int TransactionId
+        {
+            get { return GetProperty<int>(); }
+            set { SetProperty(value); }
+        }
 
         [ForeignKey(nameof(ReferentId))]
         public Person Referent { get; set; }
+
+        [ForeignKey(nameof(OwnerId))]
+        public Person Owner { get; set; }
+
+        [InverseProperty(nameof(Transaction.EstateTransaction))]
+        public ObservableCollection<Transaction> Transactions
+        {
+            get { return GetProperty<ObservableCollection<Transaction>>(); }
+            protected set { SetProperty(value); }
+        }
+      
     }
 }
