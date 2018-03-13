@@ -10,21 +10,25 @@ namespace EstateMgrCore.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     
-        [ForeignKey(nameof(TransactionId))]
         public int TransactionId
         {
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
+
         public double Price
         {
             get { return GetProperty<double>(); }
             set { SetProperty(value); }
         }
+
         public double Fees
         {
             get { return GetProperty<double>(); }
             set { SetProperty(value); }
         }
+
+        [ForeignKey(nameof(TransactionId))]
+        public Transaction Transaction { get; set; }
     }
 }

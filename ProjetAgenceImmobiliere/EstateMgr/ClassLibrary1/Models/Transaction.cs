@@ -20,7 +20,7 @@ namespace EstateMgrCore.Models
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
-        public int OwnerId
+        public int ClientId
         {
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
@@ -45,19 +45,22 @@ namespace EstateMgrCore.Models
             get { return GetProperty<DateTime>(); }
             set { SetProperty(value); }
         }
+
         [ForeignKey(nameof(EstateId))]
         public Estate EstateTransaction { get; set; }
 
-        [ForeignKey(nameof(OwnerId))]
-        public Estate OwnerTransaction { get; set; }
+        [ForeignKey(nameof(ClientId))]
+        public Person ClientTransaction { get; set; }
 
-        [InverseProperty(nameof(SaleTransaction.TransactionId))]
+        [InverseProperty(nameof(SaleTransaction.Transaction))]
         public ObservableCollection<SaleTransaction> Sale_Transactions
         {
             get { return GetProperty<ObservableCollection<SaleTransaction>>(); }
+            protected set { SetProperty(value); }
         }
-        [InverseProperty(nameof(RentTransaction.RentTransactionId))]
-        public ObservableCollection<RentTransaction> RentTransactions
+
+        [InverseProperty(nameof(RentTransaction.Transaction))]
+        public ObservableCollection<RentTransaction> Rent_Transactions
         {
             get { return GetProperty<ObservableCollection<RentTransaction>>(); }
             protected set { SetProperty(value); }

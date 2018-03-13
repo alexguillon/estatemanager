@@ -34,27 +34,27 @@ namespace EstateMgrCore.Models
             set { SetProperty(value); }
         }
 
-        public float Latitude
+        public double? Latitude
         {
-            get { return GetProperty<float>(); }
+            get { return GetProperty<double?>(); }
             set { SetProperty(value); }
         }
 
-        public float Longitude
+        public double? Longitude
         {
-            get { return GetProperty<float>(); }
+            get { return GetProperty<double?>(); }
             set { SetProperty(value); }
         }
 
         [InverseProperty(nameof(Person.AddressPerson))]
-        public ObservableCollection<Person> Persons
+        public ObservableCollection<Person> Address_persons
         {
             get { return GetProperty<ObservableCollection<Person>>(); }
             protected set { SetProperty(value); }
         }
 
         [InverseProperty(nameof(Estate.AddressEstate))]
-        public ObservableCollection<Estate> Estates
+        public ObservableCollection<Estate> Address_estates
         {
             get { return GetProperty<ObservableCollection<Estate>>(); }
             protected set { SetProperty(value); }
