@@ -9,7 +9,7 @@ namespace EstateMgrCore.Models
 {
     public class Person : ViewModels.BaseNotifyPropertyChanged
     {
-        public enum type { Morale, Physic}
+        public enum types { Morale, Physic};
 
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id
@@ -18,9 +18,9 @@ namespace EstateMgrCore.Models
             set { SetProperty(value); }
         }
 
-        public type Type
+        public types Type
         {
-            get { return GetProperty<type>(); }
+            get { return GetProperty<types>(); }
             set { SetProperty(value); }
         }
 
@@ -77,15 +77,8 @@ namespace EstateMgrCore.Models
             protected set { SetProperty(value); }
         }
 
-        [InverseProperty(nameof(Transaction.OwnerId))]
-        public ObservableCollection<Transaction> Owners
-        {
-            get { return GetProperty<ObservableCollection<Transaction>>(); }
-            protected set { SetProperty(value); }
-        }
-
-        [InverseProperty(nameof(Transaction.OwnerTransaction))]
-        public ObservableCollection<Transaction> Owners_Transaction
+        [InverseProperty(nameof(Transaction.ClientTransaction))]
+        public ObservableCollection<Transaction> Transactions_client
         {
             get { return GetProperty<ObservableCollection<Transaction>>(); }
             protected set { SetProperty(value); }

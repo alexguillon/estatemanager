@@ -43,9 +43,14 @@ namespace EstateMgrCore.DataAccess
 
         public string DatabasePath { get; }
 
-        public DbSet<Models.Estate> Estates { get; set; }
-        public DbSet<Models.Person> People { get; set; }
-        public DbSet<Models.Address> Addresses { get; set; }
+        public DbSet<Models.Estate> Estate { get; set; }
+        public DbSet<Models.Person> Person { get; set; }
+        public DbSet<Models.Address> Address { get; set; }
+        public DbSet<Models.Photos> Photos { get; set; }
+        public DbSet<Models.RentTransaction> RentTransaction { get; set; }
+        public DbSet<Models.SaleTransaction> SaleTransaction { get; set; }
+        public DbSet<Models.Transaction> Transaction { get; set; }
+
 
         private AgencyDbContext(string databasePath)
         {

@@ -28,6 +28,6 @@ namespace EstateMgrCore.Models
         }
 
         [ForeignKey(nameof(TransactionId))]
-        public Estate RentTransactionId { get; set; }
+        public Transaction Transaction { get; set; }
     }
 }

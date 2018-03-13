@@ -9,7 +9,7 @@ namespace EstateMgrCore.Models
 {
     public class Estate : ViewModels.BaseNotifyPropertyChanged
     {
-      public enum type { house, flat, field, garage, commercial};
+      public enum typeEstate { house, flat, field, garage, commercial};
 
       [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
       public int Id
@@ -42,9 +42,9 @@ namespace EstateMgrCore.Models
             set { SetProperty(value); }
         }
 
-        public type Type
+        public typeEstate Type
         {
-            get { return GetProperty<type>(); }
+            get { return GetProperty<typeEstate>(); }
             set { SetProperty(value); }
         }
 
@@ -71,11 +71,6 @@ namespace EstateMgrCore.Models
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
-        public int TransactionId
-        {
-            get { return GetProperty<int>(); }
-            set { SetProperty(value); }
-        }
 
         [ForeignKey(nameof(ReferentId))]
         public Person Referent { get; set; }
@@ -83,17 +78,16 @@ namespace EstateMgrCore.Models
         [ForeignKey(nameof(OwnerId))]
         public Person Owner { get; set; }
 
+        [ForeignKey(nameof(AddressId))]
+        public Address AddressEstate { get; set; }
+
         [InverseProperty(nameof(Transaction.EstateTransaction))]
-        public ObservableCollection<Transaction> Transactions
+        public ObservableCollection<Transaction> Estates_transactions
         {
             get { return GetProperty<ObservableCollection<Transaction>>(); }
             protected set { SetProperty(value); }
         }
-     
-        [ForeignKey(nameof(AddressId))]
-        public Address AddressEstate { get; set; }
 
-        
         [InverseProperty(nameof(Photos.EstatePhoto))]
         public ObservableCollection<Photos> Estate_photos
         {
