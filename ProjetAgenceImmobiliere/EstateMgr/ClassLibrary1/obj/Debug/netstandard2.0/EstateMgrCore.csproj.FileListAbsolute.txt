@@ -6,6 +6,9 @@ D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibr
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb
+<<<<<<< HEAD
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+=======
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.deps.json
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.pdb
@@ -15,3 +18,4 @@ D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\Cla
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb
+>>>>>>> 95a24ab3e80924300d363293a3a7186f6c1d93a0
