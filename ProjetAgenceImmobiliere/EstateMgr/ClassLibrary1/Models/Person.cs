@@ -76,5 +76,19 @@ namespace EstateMgrCore.Models
             get { return GetProperty<ObservableCollection<Estate>>(); }
             protected set { SetProperty(value); }
         }
+
+        [InverseProperty(nameof(Transaction.OwnerId))]
+        public ObservableCollection<Transaction> Owners
+        {
+            get { return GetProperty<ObservableCollection<Transaction>>(); }
+            protected set { SetProperty(value); }
+        }
+
+        [InverseProperty(nameof(Transaction.OwnerTransaction))]
+        public ObservableCollection<Transaction> Owners_Transaction
+        {
+            get { return GetProperty<ObservableCollection<Transaction>>(); }
+            protected set { SetProperty(value); }
+        }
     }
 }

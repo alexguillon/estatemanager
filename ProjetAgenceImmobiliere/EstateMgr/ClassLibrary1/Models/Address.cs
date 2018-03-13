@@ -59,5 +59,12 @@ namespace EstateMgrCore.Models
             get { return GetProperty<ObservableCollection<Estate>>(); }
             protected set { SetProperty(value); }
         }
+        public Address()
+        {
+            Id = 0;
+            ZipCode = 0;
+            Latitude = 0;
+            Longitude = 0;
+        }
     }
 }

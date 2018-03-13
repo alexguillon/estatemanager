@@ -51,7 +51,7 @@ namespace EstateMgrCore.DataAccess
         {
             DatabasePath = databasePath;
         }
-
+        
         internal AgencyDbContext(DbContextOptions options) : base(options)
         {
 
@@ -66,7 +66,8 @@ namespace EstateMgrCore.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent).WithMany(p => p.Estates);
+            modelBuilder.Entity<Models.Estate>().HasOne(e => e.Referent).WithMany(p => p.Estates_Ref);
+
         }
     }
 }

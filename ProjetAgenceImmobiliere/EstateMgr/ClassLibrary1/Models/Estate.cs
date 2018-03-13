@@ -71,15 +71,28 @@ namespace EstateMgrCore.Models
             get { return GetProperty<int>(); }
             set { SetProperty(value); }
         }
+        public int TransactionId
+        {
+            get { return GetProperty<int>(); }
+            set { SetProperty(value); }
+        }
 
         [ForeignKey(nameof(ReferentId))]
         public Person Referent { get; set; }
 
+        [ForeignKey(nameof(OwnerId))]
+        public Person Owner { get; set; }
+
+        [InverseProperty(nameof(Transaction.EstateTransaction))]
+        public ObservableCollection<Transaction> Transactions
+        {
+            get { return GetProperty<ObservableCollection<Transaction>>(); }
+            protected set { SetProperty(value); }
+        }
+     
         [ForeignKey(nameof(AddressId))]
         public Address AddressEstate { get; set; }
 
-        [ForeignKey(nameof(OwnerId))]
-        public Person Owner { get; set; }
         
         [InverseProperty(nameof(Photos.EstatePhoto))]
         public ObservableCollection<Photos> Estate_photos
