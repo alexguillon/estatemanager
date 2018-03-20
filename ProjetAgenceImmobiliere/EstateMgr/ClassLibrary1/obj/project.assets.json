@@ -2759,11 +2759,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\IUT\\S4\\NET\\Estate_project\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
+      "projectUniqueName": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
       "projectName": "EstateMgrCore",
-      "projectPath": "D:\\IUT\\S4\\NET\\Estate_project\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
+      "projectPath": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
       "packagesPath": "C:\\Users\\Lilian\\.nuget\\packages\\",
-      "outputPath": "D:\\IUT\\S4\\NET\\Estate_project\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\obj\\",
+      "outputPath": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -2823,12 +2823,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache D:\\IUT\\S4\\NET\\Estate_project\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\obj\\EstateMgrCore.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
