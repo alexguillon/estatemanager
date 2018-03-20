@@ -16,7 +16,7 @@ namespace EstateMgr
         protected async override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            //await EstateMgrCore.DataAccess.AgencyDbContext.Initialize();
+            await EstateMgrCore.DataAccess.AgencyDbContext.Initialize();
         }
     }
 }
