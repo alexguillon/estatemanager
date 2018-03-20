@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.4.0": {
         "type": "package",
         "compile": {
@@ -648,6 +657,25 @@
     }
   },
   "libraries": {
+    "LiveCharts/0.9.7": {
+      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "type": "package",
+      "path": "livecharts/0.9.7",
+      "files": [
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.pdb",
+        "lib/net40/LiveCharts.xml",
+        "lib/net45/LiveCharts.dll",
+        "lib/net45/LiveCharts.pdb",
+        "lib/net45/LiveCharts.xml",
+        "lib/portable-net45+win8+wp8/LiveCharts.XML",
+        "lib/portable-net45+win8+wp8/LiveCharts.dll",
+        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
+        "livecharts.0.9.7.nupkg.sha512",
+        "livecharts.nuspec",
+        "readme.txt"
+      ]
+    },
     "Microsoft.CSharp/4.4.0": {
       "sha512": "vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
       "type": "package",
@@ -2714,6 +2742,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "LiveCharts >= 0.9.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.1",
       "NETStandard.Library >= 2.0.1"
@@ -2766,6 +2795,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "LiveCharts": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.0.1, )"
@@ -2788,5 +2821,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'LiveCharts 0.9.7' a été restauré en utilisant '.NETFramework,Version=v4.6.1' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

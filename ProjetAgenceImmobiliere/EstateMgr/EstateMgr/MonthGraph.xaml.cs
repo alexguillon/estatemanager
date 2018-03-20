@@ -12,18 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 namespace EstateMgr
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour MonthGraph.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MonthGraph : Page
     {
-        public MainWindow()
+        public MonthGraph()
         {
             InitializeComponent();
-
         }
-
     }
 }
