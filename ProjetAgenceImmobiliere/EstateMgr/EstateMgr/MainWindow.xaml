@@ -3,11 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         xmlns:local="clr-namespace:EstateMgr"
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="Accueil" Height="500" Width="800">
 
+=======
+        Title="MainWindow" Height="700" Width="1100">
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     <Grid>
 
         <Grid.RowDefinitions>
@@ -22,7 +25,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Button Grid.Row="0" Grid.Column="1"  Content="Accueil" FontSize="25" />
 
         <Button Grid.Row="0" Grid.Column="2" FontSize="22" Command="{Binding OpenConsultation}" CommandParameter="{x:Type local:WinConsultation}">
@@ -36,7 +39,7 @@
 
 
         <Button Grid.Row="0" Grid.Column="3"  Content="Paramètres" FontSize="25" />
-        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="25">
+        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="25" Command="{Binding LoadYearGraph}" CommandParameter="{x:Type local:YearGraph}">
             <Button.Content>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Nombre de biens" HorizontalAlignment="Center"></TextBlock>
@@ -44,17 +47,25 @@
                 </StackPanel>
             </Button.Content>
         </Button>
+<<<<<<< HEAD
         
         <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20">
+=======
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="19" Command="{Binding LoadMonthGraph}" CommandParameter="{x:Type local:MonthGraph}">
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
             <Button.Content>
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Nombre de biens" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="vendus le mois dernier"  HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock Text="Nombre de biens vendus" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock Text="les 30 derniers jours"  HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
             </Button.Content>
         </Button>
+<<<<<<< HEAD
         
         <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" Click="Click_Statistic_Year">
+=======
+        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" Command="{Binding LoadYearGraph}" CommandParameter="{x:Type local:YearGraph}">
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
             <Button.Content>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Nombre de biens" HorizontalAlignment="Center"></TextBlock>
@@ -62,6 +73,7 @@
                 </StackPanel>
             </Button.Content>
         </Button>
+<<<<<<< HEAD
         
         <lvc:CartesianChart Series="{Binding SeriesCollection}" LegendLocation="Left" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="3">
             <lvc:CartesianChart.AxisX>
@@ -71,7 +83,17 @@
                 <lvc:Axis Title="Nombre de ventes" LabelFormatter="{Binding Formatter}"></lvc:Axis>
             </lvc:CartesianChart.AxisY>
         </lvc:CartesianChart>
+=======
+
+        <Frame Grid.Column="2" 
+               Grid.Row="1" 
+               Grid.ColumnSpan="2" 
+               Grid.RowSpan="3"
+               Content="{Binding CurrentGraph}"
+               NavigationUIVisibility="Hidden"
+        />
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     </Grid>
 
-    
+
 </Window>

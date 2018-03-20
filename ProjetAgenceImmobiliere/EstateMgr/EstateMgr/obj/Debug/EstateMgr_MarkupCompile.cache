@@ -9,12 +9,21 @@ EstateMgr
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
 2-1426529790
 2363747061
 6-570262433
 147247978867
 MainWindow.xaml;WinConsultation.xaml;
+=======
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
+3-510369611
+21908259402
+7-1086443746
+147956266975
+MonthGraph.xaml;YearGraph.xaml;MainWindow.xaml;
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
 
 False
 

@@ -12,8 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using LiveCharts;
-using LiveCharts.Wpf;
 namespace EstateMgr
 {
     /// <summary>
@@ -25,9 +23,9 @@ namespace EstateMgr
         {
             InitializeComponent();
 
-
         }
 
+<<<<<<< HEAD
         public SeriesCollection SeriesCollection { get; set; }
         public string[] Labels { get; set; }
         public Func<double, string> Formatter { get; set; }
@@ -49,5 +47,7 @@ namespace EstateMgr
             DataContext = this;
         }
 
+=======
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     }
 }
