@@ -136,7 +136,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Page Include="ManagerWindow\EstateWindow.xaml">
+=======
+<<<<<<< HEAD
+    <Compile Include="WinConsultation.xaml.cs">
+      <DependentUpon>WinConsultation.xaml</DependentUpon>
+    </Compile>
+=======
+    <Page Include="MonthGraph.xaml">
+>>>>>>> 96ced747fd0afce5807e01453109e93f2acba8f7
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,6 +157,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -169,7 +179,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="ManagerWindow\ManagerWindow.xaml">
+=======
+    <Page Include="WinConsultation.xaml">
+>>>>>>> 96ced747fd0afce5807e01453109e93f2acba8f7
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

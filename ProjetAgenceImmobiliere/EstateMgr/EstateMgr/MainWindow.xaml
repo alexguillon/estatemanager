@@ -22,19 +22,12 @@
         <Button Grid.Row="0" Grid.Column="1"  Content="Accueil" FontSize="25" Command="{Binding LoadHomeWindow}" CommandParameter="{x:Type local:ManagerWindow}"/>
 
         <Button Grid.Row="0" Grid.Column="2" FontSize="22" Command="{Binding LoadEstateWindow}" CommandParameter="{x:Type local:EstateWindow}">
-            <Button.Content>
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Consultation" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="et gestion"  HorizontalAlignment="Center"></TextBlock>
-                </StackPanel>
-            </Button.Content>
-        </Button>
+
+
 
 
         <Button Grid.Row="0" Grid.Column="3"  Content="Paramètres" FontSize="25" />
-      
 
-        
      
         <Frame Grid.Column="0" 
                Grid.Row="1" 
@@ -44,8 +37,6 @@
                NavigationUIVisibility="Hidden"
         />
 
-      
-        
     </Grid>
 
 

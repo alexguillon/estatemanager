@@ -1,13 +1,9 @@
-﻿using EstateMgrCore.ViewModels;
+﻿using EstateAgencyManager.Core.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-<<<<<<< HEAD
 namespace EstateAgencyManager.Core
-=======
-namespace EstateMgrCore
->>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
 {
     public static class NavigationService
     {
