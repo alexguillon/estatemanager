@@ -3,15 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:EstateMgr"
+        xmlns:local="clr-namespace:EstateMgr.ManagerWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="1100">
     <Grid>
-
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -21,8 +19,9 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Grid.Column="1"  Content="Accueil" FontSize="25" />
-        <Button Grid.Row="0" Grid.Column="2" FontSize="22" >
+        <Button Grid.Row="0" Grid.Column="1"  Content="Accueil" FontSize="25" Command="{Binding LoadHomeWindow}" CommandParameter="{x:Type local:ManagerWindow}"/>
+
+        <Button Grid.Row="0" Grid.Column="2" FontSize="22" Command="{Binding LoadEstateWindow}" CommandParameter="{x:Type local:EstateWindow}">
             <Button.Content>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Consultation" HorizontalAlignment="Center"></TextBlock>
@@ -33,38 +32,20 @@
 
 
         <Button Grid.Row="0" Grid.Column="3"  Content="Paramètres" FontSize="25" />
-        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="25" Command="{Binding LoadYearGraph}" CommandParameter="{x:Type local:YearGraph}">
-            <Button.Content>
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Nombre de biens" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="en vente"  HorizontalAlignment="Center"></TextBlock>
-                </StackPanel>
-            </Button.Content>
-        </Button>
-        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="19" Command="{Binding LoadMonthGraph}" CommandParameter="{x:Type local:MonthGraph}">
-            <Button.Content>
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Nombre de biens vendus" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="les 30 derniers jours"  HorizontalAlignment="Center"></TextBlock>
-                </StackPanel>
-            </Button.Content>
-        </Button>
-        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" Command="{Binding LoadYearGraph}" CommandParameter="{x:Type local:YearGraph}">
-            <Button.Content>
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Nombre de biens" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="vendus l'année dernière"  HorizontalAlignment="Center"></TextBlock>
-                </StackPanel>
-            </Button.Content>
-        </Button>
+      
 
-        <Frame Grid.Column="2" 
+        
+     
+        <Frame Grid.Column="0" 
                Grid.Row="1" 
-               Grid.ColumnSpan="2" 
+               Grid.ColumnSpan="4" 
                Grid.RowSpan="3"
-               Content="{Binding CurrentGraph}"
+               Content="{Binding CurrentWindow}"
                NavigationUIVisibility="Hidden"
         />
+
+      
+        
     </Grid>
 
 

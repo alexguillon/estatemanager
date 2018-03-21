@@ -17,7 +17,7 @@ namespace EstateMgrCore.ViewModels
                  new TColumnSeries
                  {
                      //Title = "2017",
-                     Values = new ChartValues<double> { 5,2,3,4,5,8,12,7,1,8,11,4 }
+                     Values = new ChartValues<double> { 5,2,3,4,5,8,12,7,1,8,11,4 },
                  }
              };
 

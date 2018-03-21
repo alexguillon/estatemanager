@@ -9,29 +9,29 @@ namespace EstateMgrCore.ViewModels
         where TDefaultViewModel : BaseNotifyPropertyChanged
         where TColumnSeries : LiveCharts.Definitions.Series.ISeriesView, new()
     {
-        public BaseCommand<Type> LoadYearGraph
+        public BaseCommand<Type> LoadHomeWindow
         {
             get => new BaseCommand<Type>((type) =>
             {
-                CurrentGraph = NavigationService.GetView<Graph1ViewModel<TColumnSeries>>(type);
+                CurrentWindow = NavigationService.GetView<HomeWindowModel.HomeWindowModel<TDefaultViewModel,TColumnSeries>>(type);
             });
         }
-        public BaseCommand<Type> LoadMonthGraph
+        public BaseCommand<Type> LoadEstateWindow
         {
             get => new BaseCommand<Type>((type) =>
             {
-                CurrentGraph = NavigationService.GetView<Graph2ViewModel<TColumnSeries>>(type);
+                CurrentWindow = NavigationService.GetView<EstateWindowModel.EstateWindowModel>(type);
             });
         }
-        public object CurrentGraph
+        public object CurrentWindow
         {
             get => GetProperty<object>();
             private set => SetProperty(value);
         }
 
-        public MainWindowViewModel(Type tView)
+        public MainWindowViewModel(Type tView, Type tSubView)
         {
-            CurrentGraph = NavigationService.GetView<TDefaultViewModel>(tView);
+            CurrentWindow = NavigationService.GetView<TDefaultViewModel>(tView, tSubView);
         }
     }
 }

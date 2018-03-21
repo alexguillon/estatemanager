@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
-3-510369611
+5317588040
 21908259402
-7-1086443746
+9-495850305
 147956266975
-MonthGraph.xaml;YearGraph.xaml;MainWindow.xaml;
+ManagerWindow\EstateWindow.xaml;HomeWindow\MonthGraph.xaml;HomeWindow\YearGraph.xaml;MainWindow.xaml;ManagerWindow\ManagerWindow.xaml;
 
 False
 
