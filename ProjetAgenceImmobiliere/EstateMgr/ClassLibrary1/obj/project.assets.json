@@ -2749,7 +2749,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {},
+    "C:\\Users\\Lilian\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -2759,18 +2759,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\IUT\\2EME ANNEE\\.net\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
+      "projectUniqueName": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
       "projectName": "EstateMgrCore",
-      "projectPath": "D:\\IUT\\2EME ANNEE\\.net\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "D:\\IUT\\2EME ANNEE\\.net\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\obj\\",
+      "projectPath": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\EstateMgrCore.csproj",
+      "packagesPath": "C:\\Users\\Lilian\\.nuget\\packages\\",
+      "outputPath": "D:\\IUT\\S4\\NET\\EstateManager\\estatemanager\\ProjetAgenceImmobiliere\\EstateMgr\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lilian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

@@ -136,6 +136,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Page Include="AddDeleteWindow\AddDeleteWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -156,7 +157,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+<<<<<<< HEAD
+>>>>>>> c00c0cd0f3a296a7155b8326d9a03201f0dbd861
     <Page Include="ManagerWindow\EstateWindow.xaml">
+=======
+<<<<<<< HEAD
+    <Compile Include="WinConsultation.xaml.cs">
+      <DependentUpon>WinConsultation.xaml</DependentUpon>
+    </Compile>
+=======
+    <Page Include="MonthGraph.xaml">
+>>>>>>> 96ced747fd0afce5807e01453109e93f2acba8f7
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -168,6 +180,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -204,7 +217,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="HomeWindow\HomeWindow.xaml">
+=======
+<<<<<<< HEAD
+    <Page Include="ManagerWindow\ManagerWindow.xaml">
+=======
+    <Page Include="WinConsultation.xaml">
+>>>>>>> 96ced747fd0afce5807e01453109e93f2acba8f7
+>>>>>>> c00c0cd0f3a296a7155b8326d9a03201f0dbd861
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

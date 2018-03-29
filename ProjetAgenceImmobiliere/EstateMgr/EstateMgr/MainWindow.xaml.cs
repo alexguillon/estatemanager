@@ -25,5 +25,29 @@ namespace EstateMgr
 
         }
 
+<<<<<<< HEAD
+        public SeriesCollection SeriesCollection { get; set; }
+        public string[] Labels { get; set; }
+        public Func<double, string> Formatter { get; set; }
+
+        private void Click_Statistic_Year(object sender, RoutedEventArgs e)
+        {
+            SeriesCollection = new SeriesCollection
+            {
+                new ColumnSeries
+                {
+                    Title = "2015",
+                    Values = new ChartValues<double> { 5,2,3,4,5,8,12,7,1,8,11,4 }
+                }
+            };
+
+            Labels = new[] { "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre" };
+            Formatter = value => value.ToString("N");
+
+            DataContext = this;
+        }
+
+=======
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
     }
 }

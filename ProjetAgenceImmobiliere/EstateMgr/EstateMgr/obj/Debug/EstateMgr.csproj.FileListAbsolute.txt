@@ -100,6 +100,8 @@ D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\Est
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Xml.XPath.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\EstateMgrCore.dll
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.dll
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.Wpf.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.Data.Sqlite.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.EntityFrameworkCore.dll
@@ -125,6 +127,10 @@ D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\Est
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Interactive.Async.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\EstateMgrCore.pdb
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.pdb
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.xml
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.Wpf.pdb
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\LiveCharts.Wpf.xml
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.Data.Sqlite.xml
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.EntityFrameworkCore.xml
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
@@ -144,7 +150,6 @@ D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\Est
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Interactive.Async.xml
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe.config
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\MainWindow.g.cs
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\App.g.cs
@@ -158,6 +163,12 @@ D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\Est
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csproj.CoreCompileInputs.cache
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe
 D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.pdb
+<<<<<<< HEAD
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\WinConsultation.g.cs
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\WinConsultation.baml
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\GeneratedInternalTypeHelper.g.cs
+=======
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\Microsoft.EntityFrameworkCore.xml
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\x86\e_sqlite3.dll
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\bin\Debug\x64\e_sqlite3.dll
@@ -324,6 +335,7 @@ D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.exe
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.pdb
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\EstateMgr.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\MonthGraph.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\YearGraph.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\MonthGraph.baml
@@ -331,6 +343,7 @@ D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\ManagerWindow\EstateWindow.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\ManagerWindow\EstateWindow.baml
+<<<<<<< HEAD
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\CurrentEstateOnSale.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\HomeWindow.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\HomeWindow\CurrentEstateOnSale.baml
@@ -343,3 +356,8 @@ D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\AddDeleteWindow\DeleteWindow.baml
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\AddDeleteWindow\ModifyWindow.g.cs
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\AddDeleteWindow\ModifyWindow.baml
+=======
+=======
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
+>>>>>>> 96ced747fd0afce5807e01453109e93f2acba8f7
+>>>>>>> c00c0cd0f3a296a7155b8326d9a03201f0dbd861

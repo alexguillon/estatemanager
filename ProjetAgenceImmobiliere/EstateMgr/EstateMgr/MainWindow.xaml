@@ -20,6 +20,7 @@
 
         <Button Grid.Row="0" Grid.Column="0"  Content="Accueil" FontSize="25" Command="{Binding LoadHomeWindow}" CommandParameter="{x:Type local:HomeWindow}"/>
 
+
         <Button Grid.Row="0" Grid.Column="1" FontSize="22" Command="{Binding LoadEstateWindow}" CommandParameter="{x:Type local:EstateWindow}">
             <Button.Content>
                 <StackPanel Orientation="Vertical">
@@ -41,7 +42,6 @@
 
 
 
-
         <Frame Grid.Column="0" 
                Grid.Row="1" 
                Grid.ColumnSpan="4" 
@@ -50,8 +50,6 @@
                NavigationUIVisibility="Hidden"
         />
 
-      
-        
     </Grid>
 
 

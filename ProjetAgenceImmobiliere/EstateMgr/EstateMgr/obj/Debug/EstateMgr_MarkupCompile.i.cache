@@ -4,17 +4,39 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\
+=======
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\
+>>>>>>> c00c0cd0f3a296a7155b8326d9a03201f0dbd861
 EstateMgr
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
 10-864865152
 21908259402
 18-114054471
 147956266975
 AddDeleteWindow\AddDeleteWindow.xaml;AddDeleteWindow\AddWindow.xaml;AddDeleteWindow\DeleteWindow.xaml;AddDeleteWindow\ModifyWindow.xaml;HomeWindow\CurrentEstateOnSale.xaml;ManagerWindow\EstateWindow.xaml;HomeWindow\MonthGraph.xaml;HomeWindow\YearGraph.xaml;MainWindow.xaml;HomeWindow\HomeWindow.xaml;
+=======
+<<<<<<< HEAD
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
+2-1426529790
+2363747061
+10-239819383
+147247978867
+MainWindow.xaml;WinConsultation.xaml;
+=======
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
+3-510369611
+21908259402
+11322967654
+147956266975
+MonthGraph.xaml;YearGraph.xaml;MainWindow.xaml;
+>>>>>>> 16281d0d1e6518460c2b232dbc5dc7a35bfe72bf
+>>>>>>> c00c0cd0f3a296a7155b8326d9a03201f0dbd861
 
 False
 
