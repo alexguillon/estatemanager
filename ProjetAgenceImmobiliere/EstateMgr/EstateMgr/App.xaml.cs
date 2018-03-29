@@ -19,7 +19,7 @@ namespace EstateMgr
         {
             base.OnStartup(e);
             await EstateMgrCore.DataAccess.AgencyDbContext.Initialize();
-            MainWindow = (Window)EstateMgrCore.NavigationService.GetView<MainWindowViewModel<HomeWindowModel<Graph1ViewModel<LiveCharts.Wpf.ColumnSeries>, LiveCharts.Wpf.ColumnSeries>, LiveCharts.Wpf.ColumnSeries>> (typeof(MainWindow), typeof(ManagerWindow.ManagerWindow), typeof(YearGraph));
+            MainWindow = (Window)EstateMgrCore.NavigationService.GetView<MainWindowViewModel<HomeWindowModel<GraphYearViewModel<LiveCharts.Wpf.ColumnSeries>, LiveCharts.Wpf.ColumnSeries>, LiveCharts.Wpf.ColumnSeries>> (typeof(MainWindow), typeof(HomeWindow), typeof(YearGraph));
             MainWindow.Show();
         }
     }

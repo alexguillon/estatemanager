@@ -13,7 +13,7 @@ namespace EstateMgrCore.ViewModels
         {
             get => new BaseCommand<Type>((type) =>
             {
-                CurrentWindow = NavigationService.GetView<HomeWindowModel.HomeWindowModel<TDefaultViewModel,TColumnSeries>>(type);
+                CurrentWindow = NavigationService.GetView<HomeWindowModel.HomeWindowModel<GraphYearViewModel<TColumnSeries>,TColumnSeries>>(type);
             });
         }
         public BaseCommand<Type> LoadEstateWindow
@@ -23,10 +23,17 @@ namespace EstateMgrCore.ViewModels
                 CurrentWindow = NavigationService.GetView<EstateWindowModel.EstateWindowModel>(type);
             });
         }
+        public BaseCommand<Type> LoadAddDeleteWindow
+        {
+            get => new BaseCommand<Type>((type) =>
+            {
+                CurrentWindow = NavigationService.GetView<AddDeleteWindowModel.AddDeleteWindowViewModel>(type, this);
+            });
+        }
         public object CurrentWindow
         {
             get => GetProperty<object>();
-            private set => SetProperty(value);
+            internal set => SetProperty(value);
         }
 
         public MainWindowViewModel(Type tView, Type tSubView)

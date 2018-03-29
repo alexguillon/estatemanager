@@ -13,14 +13,21 @@ namespace EstateMgrCore.ViewModels.HomeWindowModel
         {
             get => new BaseCommand<Type>((type) =>
             {
-                CurrentGraph = NavigationService.GetView<Graph1ViewModel<TColumnSeries>>(type);
+                CurrentGraph = NavigationService.GetView<GraphYearViewModel<TColumnSeries>>(type);
+            });
+        }
+        public BaseCommand<Type> LoadEstateOnSale
+        {
+            get => new BaseCommand<Type>((type) =>
+            {
+                CurrentGraph = NavigationService.GetView<CurrentEstateOnSaleViewModel>(type);
             });
         }
         public BaseCommand<Type> LoadMonthGraph
         {
             get => new BaseCommand<Type>((type) =>
             {
-                CurrentGraph = NavigationService.GetView<Graph2ViewModel<TColumnSeries>>(type);
+                CurrentGraph = NavigationService.GetView<GraphMonthViewModel<TColumnSeries>>(type);
             });
         }
         public object CurrentGraph
@@ -31,7 +38,9 @@ namespace EstateMgrCore.ViewModels.HomeWindowModel
 
         public HomeWindowModel(Type tView)
         {
-            CurrentGraph = NavigationService.GetView<TDefaultViewModel>(tView);
+
+            CurrentGraph = NavigationService.GetView<GraphYearViewModel<TColumnSeries>>(tView);
         }
+    
     }
 }

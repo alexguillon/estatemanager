@@ -4,7 +4,7 @@ using System.Text;
 using LiveCharts;
 namespace EstateMgrCore.ViewModels
 {
-    public class Graph2ViewModel<TLineSeries> : BaseNotifyPropertyChanged
+    public class GraphMonthViewModel<TLineSeries> : BaseNotifyPropertyChanged
         where TLineSeries : LiveCharts.Definitions.Series.ISeriesView, new()
     {
         public SeriesCollection MySeriesCollection { get => GetProperty<SeriesCollection>(); set => SetProperty(value); }
@@ -12,7 +12,7 @@ namespace EstateMgrCore.ViewModels
         public Func<double, string> Formatter { get; set; }
 
 
-        public Graph2ViewModel()
+        public GraphMonthViewModel()
         {
             MySeriesCollection = new SeriesCollection
             {

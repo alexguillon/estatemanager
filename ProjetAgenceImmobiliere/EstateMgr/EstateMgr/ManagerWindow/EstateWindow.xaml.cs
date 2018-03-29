@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EstateMgr.ManagerWindow
+namespace EstateMgr
 {
     /// <summary>
     /// Logique d'interaction pour EstateWindow.xaml

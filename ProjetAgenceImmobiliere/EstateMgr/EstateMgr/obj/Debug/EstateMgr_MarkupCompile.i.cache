@@ -1,0 +1,20 @@
+﻿EstateMgr
+
+
+winexe
+C#
+.cs
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\obj\Debug\
+EstateMgr
+none
+false
+DEBUG;TRACE
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\EstateMgr\App.xaml
+10-864865152
+21908259402
+18-114054471
+147956266975
+AddDeleteWindow\AddDeleteWindow.xaml;AddDeleteWindow\AddWindow.xaml;AddDeleteWindow\DeleteWindow.xaml;AddDeleteWindow\ModifyWindow.xaml;HomeWindow\CurrentEstateOnSale.xaml;ManagerWindow\EstateWindow.xaml;HomeWindow\MonthGraph.xaml;HomeWindow\YearGraph.xaml;MainWindow.xaml;HomeWindow\HomeWindow.xaml;
+
+False
+

@@ -4,13 +4,13 @@ using System.Text;
 using LiveCharts;
 namespace EstateMgrCore.ViewModels
 {
-    public class Graph1ViewModel<TColumnSeries> : BaseNotifyPropertyChanged
+    public class GraphYearViewModel<TColumnSeries> : BaseNotifyPropertyChanged
         where TColumnSeries : LiveCharts.Definitions.Series.ISeriesView, new()
     {
         public SeriesCollection MySeriesCollection { get => GetProperty<SeriesCollection>(); set => SetProperty(value); }
          public string[] Labels { get; set; }
          public Func<double, string> Formatter { get; set; }
-         public Graph1ViewModel()
+         public GraphYearViewModel()
          {
             MySeriesCollection = new SeriesCollection
              {

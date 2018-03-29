@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EstateMgr.ManagerWindow
+namespace EstateMgr
 {
     /// <summary>
-    /// Logique d'interaction pour ManagerWindow.xaml
+    /// Logique d'interaction pour ModifyWindow.xaml
     /// </summary>
-    public partial class ManagerWindow : Page
+    public partial class ModifyWindow : Page
     {
-        public ManagerWindow()
+        public ModifyWindow()
         {
             InitializeComponent();
         }
